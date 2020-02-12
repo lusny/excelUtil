@@ -22,16 +22,7 @@ public class TestController {
 		return d;
 	}
 	
-	
-	@RequestMapping("/sava")
-	public String getStr(){
-		
-		String s = "123";
-		
-		return s;
-	}
-	
-	@RequestMapping("/hello")
+	@RequestMapping("/show")
 	public String show(){
 		return "Hello World";
 	}
