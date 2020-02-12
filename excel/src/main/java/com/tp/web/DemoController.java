@@ -28,5 +28,10 @@ public class DemoController {
 	public List<DemoModel> show(int id){
 		return demoService.show(id);
 	}
+	
+	@RequestMapping("/test")
+	public String test(){
+		return "Hello World!";
+	}
 
 }
