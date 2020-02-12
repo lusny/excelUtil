@@ -1,7 +1,10 @@
 package com.tp.service;
-import com.tp.model.EntityDemo;
+import java.util.List;
+
+import com.tp.model.DemoModel;
 
 public interface DemoService {
 	
-	public void sava(EntityDemo entityDemo);
+	void sava(DemoModel demoModel);
+	List<DemoModel> show(int id);
 }
